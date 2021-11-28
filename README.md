@@ -1,3 +1,44 @@
+# Frontend Technical Test - Alex Murphy
+
+Thank you for looking at my submission for the Stars Group technical test.
+
+As instructed, I completed the task using C#, as that is the language I am most familiar with. I don't know Cypress (yet!) but I did use Specflow which is a port of Cucumber.
+
+The test scenarios can be found in the Specflow feature files located in the Specflow folder (BetSlipItems.feature and OddsFormat.feature).
+
+### BetSlipItems.feature
+This feature file contains 2 simple scenarios to give the Betslip a quick test. The first adds an item to the betslip and checks that the betslip counter is updated. The second does the same, then removes the item and checks that the betslip counter is reset to 0. In each case it gets the first bet that it finds on the page.
+
+### OddsFormat.feature
+This feature file contains 1 Scenario Outline with a simple table. It sets the format of the odds, then checks that an expected character is found in the first odds that are found on the page.
+
+### Instructions to run
+
+Dependencies:
+- Chrome browser
+- Visual Studio (Community Edition is fine)
+- Install Specflow Extension for Visual Studio
+
+Steps:
+- Open Solution in Visual Studio
+- Build Solution
+- Run tests via Test Explorer
+
+I *think* the above steps would work on a Mac, but I'm not 100% sure.
+
+I recorded a [video of the tests](https://youtu.be/FmsK2vmsSHQ) running, in case this was useful.
+
+### Further information and notes
+
+The project was built using the tools that I'm most familiar with, which is C#, Selenium, Specflow, and a few other packages. It's based around the way that I've been doing things in my current role.
+
+I'm happy with it as a first pass at meeting the criteria of the tests. It is basic and there are things that could be improved. It was a balance between getting something up and running and working, and trying to make a framework that could, in theory, be fleshed out further.
+
+The site was definitely more dynamic than the sites I have tested in my current role!
+
+*Original text below*
+-----------------------------------------------------
+
 # Frontend Technical Test
 
 Welcome to The Stars Group technical test for frontend test engineers!

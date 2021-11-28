@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e70b6c06-2f6c-4d72-b760-e3f54630bc2a": {
+      "ProjectGuid": "e70b6c06-2f6c-4d72-b760-e3f54630bc2a",
+      "DisplayName": "FrontEndTechTest",
+      "ColorIndex": 0
+    },
+    "c10a1251-f6d7-47c0-b143-233ed2af953d": {
+      "ProjectGuid": "c10a1251-f6d7-47c0-b143-233ed2af953d",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
